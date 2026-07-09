@@ -336,25 +336,25 @@
         <div class="container">
             <h2 class="section-title">Initiate An Architecture Audit</h2>
             <div class="form-wrapper">
-                <form action="https://submit-form.com/e4FseYV0h" method="POST" onsubmit="event.preventDefault(); alert('Audit request received! BridgeVelo engineers will review your system parameters shortly.');">
-                    <div class="form-group">
-                        <label for="name">Contact Name</label>
-                        <input type="text" id="name" required placeholder="Your name or handle">
-                    </div>
-                    <div class="form-group">
-                        <label for="discord">Discord Tag / Email</label>
-                        <input type="text" id="discord" required placeholder="username#0000 or email">
-                    </div>
-                    <div class="form-group">
-                        <label for="setup">Current System Architecture</label>
-                        <input type="text" id="setup" placeholder="e.g., Velocity Proxy, Paper Java 1.20, Pterodactyl Panel">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Primary Bottleneck / Technical Requirements</label>
-                        <textarea id="message" rows="5" required placeholder="Describe the connection lag, plugin breaks, or optimization limitations you need fixed..."></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Submit Architecture Details</button>
-                </form>
+                <form action="https://submit-form.com/e4FseYV0h" method="POST">
+    <div class="form-group">
+        <label for="name">Contact Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name or handle">
+    </div>
+    <div class="form-group">
+        <label for="discord">Discord Tag / Email</label>
+        <input type="text" id="discord" name="contact" required placeholder="username#0000 or email">
+    </div>
+    <div class="form-group">
+        <label for="setup">Current System Architecture</label>
+        <input type="text" id="setup" name="architecture" placeholder="e.g., Velocity Proxy, Paper Java 1.20, Pterodactyl Panel">
+    </div>
+    <div class="form-group">
+        <label for="message">Primary Bottleneck / Technical Requirements</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Describe the connection lag, plugin breaks, or optimization limitations you need fixed..."></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Submit Architecture Details</button>
+</form>
             </div>
         </div>
     </section>
